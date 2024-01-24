@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Use ssh with single-character flags to connect using the private key
+ssh -i ~/.ssh/id_rsa ubuntu@54.236.27.222
