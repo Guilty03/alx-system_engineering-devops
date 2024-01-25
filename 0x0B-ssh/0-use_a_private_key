@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
-# Use ssh with single-character flags to connect using the private key
-ssh -i ~/.ssh/id_rsa ubuntu@54.236.27.222
+# This script connects to the server using SSH and a private key
+
+# Set the server IP address
+server_ip="8.8.8.8"
+
+# Connect to the server using ssh and private key
+ssh -i ~/.ssh/school ubuntu@$server_ip
+
