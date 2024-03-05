@@ -1,6 +1,6 @@
-# SSH Configuration File
-#
-Host 54.236.27.222
-	PasswordAuthentication no
-	PreferredAuthentications publickey
-	IdentityFile ~/.ssh/school
+#!/usr/bin/env bash
+# This script configures the SSH client
+
+# Set up SSH client configuration
+echo -e "Host *\n\tIdentityFile ~/.ssh/school\n\tPasswordAuthentication no" > ~/.ssh/config
+
